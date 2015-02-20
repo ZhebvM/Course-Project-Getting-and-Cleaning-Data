@@ -1,0 +1,46 @@
+Codebook
+
+In the final data set called average_data.text there are the following variables:
+
+****SubjectID
+
+An identifier of the subject who participated in the experiement
+
+****Activity
+
+A variable describing which activity the subject was performing when the measures were taken. There are six possible categories:
+
+"LAYING" 
+"SITTING"            
+"STANDING"          
+"WALKING"   
+"WALKING_DOWNSTAIRS" 
+"WALKING_UPSTAIRS" 
+
+****Columns 3:81 contain the measurements. To understand the variable names, please use the following directions:
+
+*prefix t or f shows how the features have been recorded, for more information refer to features_info.txt
+*the list of features is one of the ones below:
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+*...mean or ...std show whether the presented average refers to the mean or the standard deviation of the measurement. 
+
+*X, Y or Z refer to 3-axial signals in the X, Y and Z directions
+
