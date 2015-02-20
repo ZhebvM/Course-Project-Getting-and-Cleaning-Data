@@ -42,5 +42,5 @@ fBodyGyroJerkMag
 
 *...mean or ...std show whether the presented average refers to the mean or the standard deviation of the measurement. 
 
-*X, Y or Z refer to 3-axial signals in the X, Y and Z directions
+*X, Y or Z refer to 3-axial signals where X, Y and Z indicate one of three directions
 
