@@ -8,13 +8,13 @@ setwd{"..."}
 # Step 1: Read all text files into R 
 
 features <- read.table("features.txt") # lists of all features 
-labels_file <- read.table("activity_labels.txt") # only 6 rows indicates activities
+labels_file <- read.table("activity_labels.txt") # only 6 rows; each row indicate an activity
 
-train_x <- read.table("train/X_train.txt")
-train_y <- read.table("train/y_train.txt") # labels
+train_x <- read.table("train/X_train.txt") # train data
+train_y <- read.table("train/y_train.txt") # test data 
 
 
-test_x <- read.table("test/X_test.txt"
+test_x <- read.table("test/X_test.txt") # labels for train
 test_y <- read.table("test/y_test.txt") # labels for test 
 
 train_sub <- read.table("train/subject_train.txt") # subjects train
